@@ -7,15 +7,12 @@
 .. description: 
 .. type: text
 
-Creating a Website using Nikola
-===============================
-
 This post documents the steps I went through to set up the initial version of
 this website, using the Nikola static website generator. It's very much a
 learning exercise, as I've never used any sort of website generator before.
 
 Goals
------
+=====
 
 OK, to start with, I want to set some goals, so that I'm not just floundering
 round "trying things out". I'll also note some explicit non-goals, for
@@ -49,7 +46,7 @@ Non-goals:
   somewhere to publish my content.
 
 Software
---------
+========
 
 As noted, I'm using Nikola. I briefly looked at Pelican as an alternative, and
 maybe it's fine, I didn't really look too hard. Mostly I didn't like its
@@ -62,7 +59,7 @@ Don't read anything into my choice. Hopefully the above paragraph makes it
 obvious that it's not based on any sort of actual review.
 
 Initial Steps
--------------
+=============
 
 I created a project directory, and a virtual environment named ``.venv``
 inside it. I installed Nikola into that environment.
