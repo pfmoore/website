@@ -1,0 +1,12 @@
+# General Python admin stuff
+.venv
+__pycache__
+*.pyc
+
+# Nikola output
+cache
+output
+.doit.db.*
+
+# IDEs
+.vscode
