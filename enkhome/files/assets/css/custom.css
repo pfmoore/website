@@ -1,0 +1,9 @@
+/* fonts*/
+@font-face {
+    font-family: "color-emoji";
+    src: local("Noto Color Emoji");
+    src: url("../fonts/NotoColorEmoji.ttf");
+}
+.emoji {
+    font-family: 'color-emoji';
+}

@@ -33,4 +33,22 @@ output, so it should be possible to do this with a bit of CSS. There's a nice
 web font, Noto Color Emoji, available from Google at
 https://www.google.com/get/noto/#emoji-zsye-color.
 
-I still have to put this all together, but that's for another day.
+To put this all together:
+
+1. Add a file in ``files\assets\css\custom.css`` with the content
+   ::
+
+       /* fonts*/
+       @font-face {
+           font-family: "color-emoji";
+           src: local("Noto Color Emoji");
+           src: url("../fonts/NotoColorEmoji.ttf");
+       }
+       .emoji {
+           font-family: 'color-emoji';
+       }
+
+2. Download the font from the URL above, and extract the ``.ttf`` file to
+   ``files\assets\fonts``.
+
+Done. {{% emoji slightly_smiling_face %}}

@@ -53,7 +53,8 @@ maybe it's fine, I didn't really look too hard. Mostly I didn't like its
 default website look, and changing it seemed like something I didn't want to
 dive into initially. Also Nikola is based on the Python doit library - totally
 irrelevant to how I'll be using it, but I quite like the library and it makes
-me happy to think someone has built a nice tool using it :-)
+me happy to think someone has built a nice tool using it
+{{% emoji slightly_smiling_face %}}
 
 Don't read anything into my choice. Hopefully the above paragraph makes it
 obvious that it's not based on any sort of actual review.
